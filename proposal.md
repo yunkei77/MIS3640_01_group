@@ -55,13 +55,13 @@ Week 8 (Submission 11/30):
         1.1 Final check, finish all necessary debugging  
 
 
-1. **Collaboration Plan**
+5. **Collaboration Plan**
 
 
-2. **Risks**
+6. **Risks**
 
 
-3. **Additional Course Contnet**
+7. **Additional Course Contnet**
 
 Debugging 
 
