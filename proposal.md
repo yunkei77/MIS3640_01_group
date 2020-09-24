@@ -12,12 +12,58 @@ This project will allow us to deepen our understanding of the Python language an
 
 3. **Project Implementation Plan**
 
-We will first need to determine a threshhold of plagiarism 
+We will first need to determine a reasonable threshhold of similarity that can define to what degree of similarity will be called plagiarism. This will require research and judgement in the beginning phase.  
 
+In python, we think the following libraries will help: 
 from .matcher: import Text, ExtendedMatch, Matcher
 import os
 import glob
 import csv
 
 The Matcher.match funciton will be an essential part of our program. It takes i nan argument and a group of cases to test the argument against. 
+
+4. **Project Schedule**
+Since we have roughly 8 weeks to finishe the project, we will disect our project into weekly goals:
+
+Week 1: 
+        1.1 Use resources to determine a reasonable threshold for plagiarism
+        1.2 Get familiar with Natural Language Processing 
+        1.3 Get familiar with Matcher.match 
+        1.4 Alway make changes/accomadations to the project plans whenever needed
+
+Week 2:
+        1.1 Start writing pseudo code
+        1.2 Search and identify useful libraries that will be useful to the project 
+
+Week 3: 
+        1.1 Continue improve psedudo code; It's a learning process 
+
+Week 4: 
+        1.1 Start writing code
+
+Week 5:
+        1.1 By the end of the week, finish the first part of the code where we can take in a document and break it down into smaller logical pieces
+
+Week 6:
+        1.1 Start writing the second hald of the code where we aim to match similarity of the two documents
+
+Week 7:
+        1.1 A week to take a step back and examine our progress
+        1.2 Make adjustment and continue writing our code
+
+Week 8 (Submission 11/30): 
+        1.1 Final check, finish all necessary debugging  
+
+
+1. **Collaboration Plan**
+
+
+2. **Risks**
+
+
+3. **Additional Course Contnet**
+
+Debugging 
+
+The idea of Natural Language Processing 
 
