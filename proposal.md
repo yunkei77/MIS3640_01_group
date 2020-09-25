@@ -8,7 +8,6 @@ It is very likely that a plagirizer will take only part of a plagirized document
 2. **Learning Goals**
 This project will allow us to deepen our understanding of the Python language and  get our hands on the idea of string matching. Plagiarism checker is one of the beginner examples of natural language processing, therefore, we will also gain exposure to the bigger picture. 
 
-补充ind. learning goal
 
 3. **Project Implementation Plan**
 
@@ -56,14 +55,15 @@ Week 8 (Submission 11/30):
 
 
 5. **Collaboration Plan**
+We plan to practice agile development in which the three of us will first split up the tasks that need to be done and finish them separately. Then we will come together to integrate all of the parts. During this process, we will develop our codes in iterations which we make small adjustments and additions each time and test it out every time we make any changes to the previous codes. This way we can increase our efficiency since we will be able to locate and fix any bugs or defects at each iteration. We will also be able to get a sense of how well are the codes working at an early stage and make necessary adjustments and improvements along the way.
 
 
 6. **Risks**
+Since all three of us have no experience in python programming before the class, we would need to do extra researching in order to complete the project. Therefore, one of the risks we might encounter is to find the most suitable code for our project. Furthermore, it might be difficult for us to recognize which part is wrong when we encounter errors. The risks of not knowing how to fix the problems is quite high for us. 
 
 
 7. **Additional Course Contnet**
+As far as the course is going now, all the topics are helpful to our project. The more we know about Python, the more we can use in our coding. Most importantly, we need to know how to utilize the “big data” in order to achieve our goal. As for now, the “iteration” and “Strings” topics would be helpful in organizing our major idea. We would also need to know how to make our checker work more comprehensible and efficiently. 
 
-Debugging 
-
-The idea of Natural Language Processing 
+Introducing more of Natural Language Processing will also be helpful. 
 
