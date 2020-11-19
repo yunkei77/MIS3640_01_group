@@ -1,0 +1,116 @@
+<!doctype html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Plagiarism Checker</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+   <div class="card">
+      <div class="card-header">Plagiarism Checker tool, developed using Python</div>
+      <div class="card-body">
+         <h5 class="card-title">Big Idea/Goal/Why did we do this?</h5>
+         <p class="card-text">This is a simple plagiarism detection tool for content creators and students. We see an
+            increasing demand for a free, simple plagiarism checker as most of the ones available online are not free
+            and might not be accurate.</p>
+         <p class='card-text'>The simple idea here is, for a given body of documents, e.g. a doc., we want to find pairs
+            of documents witth a lot of text in common. To detect plagiarism, We are looking at using a natural language
+            processing library along with the search API to search the result pages of a Google search.</p>
+         <p class="card-text">It is very likely that a plagirizer will take only part of a plagirized document, reorder
+            pieces, or rewords the contents. Since the determinant of a good plagiarism checker is its accuracy and
+            comprehensiveness, our ultimate goal is to build a checker that can find all such pairs of document in
+            open-access sources without have to compare all documents on the web. Our minimum viable product will be a
+            checker that can first breaks down an entire document into semantically relevant and logical phrases and
+            sentances. then ask the user to input a URL so that the software can start checking for plagiarism into
+            locals portals.</p>
+         <hr>
+
+         <h5 class="card-title">User instructions/README</h5>
+         <p class="card-text">
+            - Simple-Plagiarism-Checker
+            <br>
+            Web application of Plagiarism Checker using Python-Flask. TF-IDF and cosine similarity is a very common
+            technique. It allows the system to quickly retrieve documents similar to a search query. Similarly, based on
+            the same concept instead of retrieving documents similar to a query, it checks for how similar the query is
+            to the existing database file.<br>
+            <br>
+            - Steps:
+            <br>
+            1. User enters a query <br>
+            2. Query gets processed (Uppercase to lowercase, Removal of punctuationmarks, etc.)<br>
+            3. Calculations are done (Term Frequency, Cosine Similarity)<br>
+            4. The Plagiarism Percentage is returned on the web page<br>
+            <br>
+            - Python-Flask
+            <br>
+            1. Flask is a light-weight web framework for Python<br>
+            2. Easy to work with (Same syntax as of Python)<br>
+            3. While Flask addresses itself as a "micro-framework", it is not lacking in features or power, especially
+            with a clutch of extensions to support features such as authentication, databases and so on<br>
+            4. Comprehensive documentation available
+         </p>
+         <hr>
+
+         <h5 class="card-title">Implementation information</h5>
+         <img src="{{url_for('static', filename='code.png')}}" />
+         <hr>
+
+         <h5 class="card-title">Results</h5>
+         <form action="http://localhost:5000" method="POST">
+            <p>Input Text : </p>
+            <textarea name="query" rows="20" cols="250" autofocus>{{query}}</textarea>
+            <br>
+            <input type="submit" name="submit" value="CHECK PLAGIARISM">
+            <p>{{output}}</p>
+         </form>
+         <hr>
+
+         <h5 class="card-title">Project evolution/narrative</h5>
+         <p class="card-text">
+            Week 1: Use resources to determine a reasonable threshold for plagiarism 1.2 Get familiar with Natural
+            Language Processing 1.3 Get familiar with Matcher.match 1.4 Alway make changes/accomadations to the project
+            plans whenever needed
+            <br>
+            Week 2: Start writing pseudo code 1.2 Search and identify useful libraries that will be useful to the
+            project
+            <br>
+            Week 3: Continue improve psedudo code; It's a learning process
+            <br>
+            Week 4: Start writing code
+            <br>
+            Week 5: By the end of the week, finish the first part of the code where we can take in a document and break
+            it down into smaller logical pieces
+            <br>
+            Week 6: Start writing the second hald of the code where we aim to match similarity of the two documents
+            <br>
+            Week 7: A week to take a step back and examine our progress 1.2 Make adjustment and continue writing our
+            code
+            <br>
+            Week 8: Final check, finish all necessary debugging
+         </p>
+         <hr>
+
+         <h5 class="card-title">Attribution</h5>
+         <p class="card-text">We plan to practice agile development in which the three of us will first split up the
+            tasks that need to be done and finish them separately. Then we will come together to integrate all of the
+            parts. During this process, we will develop our codes in iterations which we make small adjustments and
+            additions each time and test it out every time we make any changes to the previous codes. This way we can
+            increase our efficiency since we will be able to locate and fix any bugs or defects at each iteration. We
+            will also be able to get a sense of how well are the codes working at an early stage and make necessary
+            adjustments and improvements along the way.</p>
+      </div>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+</body>
